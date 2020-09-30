@@ -9,8 +9,8 @@ var Applist = {
                 "title": title,
                 "description": notes,
                 "eventLocation": location,
-                "startTimeMillis": "",
-                "endTimeMillis": ""
+                "startTimeMillis": new Date(),
+                "endTimeMillis": new Date()
             }]
         ); 
     }
